@@ -150,7 +150,7 @@ class _HomePageState extends State<HomePage> {
 
                                       color: Colors.white,
                                       borderRadius: BorderRadius.vertical(bottom: Radius.circular(15)),
-                                  border: Border.all(color: Colors.black,width: 1)
+                                  border: Border.all(color: Colors.black,width: 0.5)
                                 ),
                                 searchInputDecoration: InputDecoration(
                                   prefixIcon:SvgPicture.asset("assets/Vector.svg",width: 10,height: 10,fit: BoxFit.scaleDown,),
